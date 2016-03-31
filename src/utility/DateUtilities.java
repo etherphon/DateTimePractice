@@ -85,6 +85,7 @@ public class DateUtilities {
 
     /**
      * Returns the current date and time.
+     * @return Current date and time as a Date object.
      */
     public Date now() {
         return Calendar.getInstance().getTime();
@@ -335,7 +336,7 @@ public class DateUtilities {
      * @param dateUnit - an enum representing a unit of measure in milliseconds
      * (e.g., a day is 1000L * 60L * 60L * 24L ms, etc.)
      * @param startDate - a <code>Calendar</code> object
-     * @param secondendDateDate - a <code>Calendar</code> object
+     * @param endDate - a <code>Calendar</code> object
      * @return the difference in DateUtilities units as a positive whole number
      * @throws IllegalArgumentException if any argument is invalid
      */
